@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>FreeRoute</title>
+        <vendor>Olaf</vendor>
+        <homepage href=""/>
+        <description>FreeRoute</description>
+        <description kind="short">FreeRoute</description>
+    </information>
+    <update check="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="FreeRoute.jar" main="true"/>
+    <extension href="jnlpcomponent1.jnlp"/>
+</resources>
+    <application-desc main-class="gui.MainApplication">
+    </application-desc>
+</jnlp>
